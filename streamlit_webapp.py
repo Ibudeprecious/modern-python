@@ -4,7 +4,6 @@ import pandas as pd
 data = {
     'Name': ['Alice', 'Bob', 'Charlie'],
     'Age': [25, 30, 35],
-    'City': ['New York', 'Los Angeles', 'Chicago']
 }
 df = pd.DataFrame(data)
 
@@ -16,3 +15,4 @@ st.write('''Lets work you around a little I am ibude Precious.
          Welcome to this demo webapp\n
          I will publishing my projects here in the follwing weeks''')
 st.write(df)
+st.line_chart(df['Age'])
