@@ -15,4 +15,4 @@ st.write('''Lets work you around a little I am ibude Precious.
          Welcome to this demo webapp\n
          I will publishing my projects here in the follwing weeks''')
 st.write(df)
-st.line_chart()
+st.line_chart(df)
