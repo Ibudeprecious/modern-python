@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 data = {
-    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Inome': [1000, 3000, 30000],
     'Age': [25, 30, 35],
 }
 df = pd.DataFrame(data)
