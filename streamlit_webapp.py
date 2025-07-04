@@ -4,8 +4,9 @@ import pandas as pd
 data = {
     'Inome': [1000, 3000, 30000],
     'Age': [25, 30, 35],
+    'Name': ['Precious', 'John', 'Doe'],
 }
-df = pd.DataFrame(data)
+df = pd.DataFrame(data, index=data['Name'])
 
 
 st.title('Hi welcome to this page')
